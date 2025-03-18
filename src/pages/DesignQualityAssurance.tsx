@@ -73,7 +73,7 @@ const DesignQualityAssurance = () => {
               <div className="text-center mb-8">
                 <h1 className="text-3xl font-bold mb-2">Design Quality Assurance</h1>
                 <p className="text-gray-600">
-                  Upload your design PDF to evaluate quality and receive feedback
+                  Upload your Plan Set to evaluate quality and receive feedback
                 </p>
               </div>
               
@@ -115,12 +115,12 @@ const DesignQualityAssurance = () => {
           ) : (
             <>
               <div className="mb-6 flex justify-between items-center">
-                <h1 className="text-2xl font-bold">Design Analysis</h1>
+                <h1 className="text-2xl font-bold">Quality Check</h1>
                 <Button 
                   variant="outline" 
                   onClick={resetEvaluation}
                 >
-                  Evaluate Another Design
+                  Evaluate Another Plan Set
                 </Button>
               </div>
               

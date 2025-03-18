@@ -63,7 +63,7 @@ const EvaluationResults: React.FC<EvaluationResultsProps> = ({ evaluation }) => 
     <div className="space-y-6">
       <div className="flex flex-col md:flex-row md:items-center justify-between gap-4">
         <div>
-          <h2 className="text-2xl font-bold">Design Evaluation Results</h2>
+          <h2 className="text-2xl font-bold">Plan Set Evaluation Results</h2>
           <div className="flex items-center gap-2 mt-1">
             <FileText className="h-4 w-4 text-muted-foreground" />
             <span className="text-sm text-muted-foreground">{fileName}</span>

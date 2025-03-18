@@ -10,10 +10,10 @@ const Index = () => {
       <header className="w-full bg-white border-b border-gray-200">
         <div className="container mx-auto px-4 py-4 flex justify-between items-center">
           <div className="flex items-center gap-2">
-            <div className="h-8 w-8 bg-gold-500 rounded-full flex items-center justify-center">
+            {/* <div className="h-8 w-8 bg-gold-500 rounded-full flex items-center justify-center">
               <span className="text-white font-bold text-lg">D</span>
-            </div>
-            <h1 className="text-xl font-bold">Design Quality Evaluator</h1>
+            </div> */}
+            <h1 className="text-xl font-bold">Design Quality Assurance</h1>
           </div>
           <nav>
             <ul className="flex items-center gap-6">
@@ -35,9 +35,9 @@ const Index = () => {
       <main className="container mx-auto px-4 py-16">
         <div className="max-w-4xl mx-auto">
           <div className="text-center mb-12">
-            <h1 className="text-4xl font-bold mb-4">Evaluate Your Design Quality</h1>
+            <h1 className="text-4xl font-bold mb-4">Evaluate Your Plan Set</h1>
             <p className="text-xl text-gray-600 mb-8">
-              Upload your design PDFs for instant feedback and professional evaluation
+              Upload your Plan Set PDFs for instant feedback and professional evaluation
             </p>
             <div className="flex justify-center">
               <Link to="/design-quality-assurance">
@@ -55,7 +55,7 @@ const Index = () => {
               </div>
               <h3 className="text-lg font-semibold mb-2">Upload Design</h3>
               <p className="text-gray-600">
-                Simply upload your PDF design files through our secure platform
+                Simply upload your Plan Set PDF design files through our secure platform
               </p>
             </div>
             
@@ -75,7 +75,7 @@ const Index = () => {
               </div>
               <h3 className="text-lg font-semibold mb-2">Get Feedback</h3>
               <p className="text-gray-600">
-                Receive detailed feedback and scores to improve your design quality
+                Receive detailed feedback and suggestions for fixing issues
               </p>
             </div>
           </div>
@@ -84,7 +84,7 @@ const Index = () => {
 
       <footer className="bg-white border-t border-gray-200 py-6">
         <div className="container mx-auto px-4 text-center text-sm text-gray-500">
-          © {new Date().getFullYear()} Design Quality Evaluator. All rights reserved.
+          © {new Date().getFullYear()} Design Quality Assurance. All rights reserved.
         </div>
       </footer>
     </div>
